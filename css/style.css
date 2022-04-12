@@ -1,0 +1,125 @@
+/* general styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* container */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        'header header'
+        'aside main'
+        'footer footer';
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: 120px 1fr 50px;
+}
+
+/* header */
+
+.container header {
+    background-color: rgb(118, 215, 196);
+    margin: 0;
+    padding: 0;
+    grid-area: header;
+}
+
+.container header div {
+    display: flex;
+    padding: 10px 0 10px 5px;
+}
+
+.container header div h1 {
+    margin: 0;
+    display: block;
+    width: 100px;
+    font-family: 'Grape Nuts', cursive;
+    margin: auto 0 auto 0;
+}
+
+.container header div p {
+    width: 200px;
+    display: block;
+}
+
+.container header div img {
+    width: 100px;
+}
+
+/* aside */
+
+.container aside {
+    grid-area: aside;
+    background-color: rgba(118, 215, 196, .3);
+}
+
+.container aside nav {
+    margin: 10px;
+}
+
+.container aside nav li {
+    list-style-type: none;
+    padding: 5px 0 5px 0;
+}
+
+.container aside nav li a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 25;
+}
+
+.container aside nav li a:hover {
+    color: blue;
+}
+
+/* main */
+
+.container main {
+    grid-area: main;
+    padding: 10px 10px 10px 20px;
+}
+
+.container main h2 {
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container main p {
+    text-align: center;
+    font-size: 18px;
+    width: 70%;
+    margin: 10px auto 20px auto;
+    color: rgba(0,0,0,.6);
+}
+
+.container main img {
+    display: block;
+    margin: auto; 
+    border-radius: 20px;
+}
+
+/* footer */
+
+.container footer {
+    background-color: rgb(118, 215, 196);
+    width: 100%;
+    grid-area: footer;
+}
+
+.container footer p {
+    text-align: center;
+}
