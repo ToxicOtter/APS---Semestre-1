@@ -13,6 +13,7 @@ body {
     margin: 0;
 }
 
+
 /* container */
 
 .container {
@@ -73,6 +74,10 @@ body {
 
 /* aside */
 
+.container h2{
+    text-align: center;
+}
+
 .container aside {
     grid-area: aside;
     background-color: rgba(118, 215, 196, .3);
@@ -98,12 +103,15 @@ body {
     color: white;
 }
 
-/* main */
+/* CONFIGURAÇÃO DO MAIN */
 
 .container main {
     grid-area: main;
     padding: 10px 10px 10px 20px;
 }
+
+
+ /* Config dos Títulos */
 
 .container main h2 {
     font-family: 'Grape Nuts', cursive;
@@ -111,13 +119,27 @@ body {
     text-align: center;
 }
 
+ /* config dos textos */ 
+
 .container main p {
-    text-align: center;
-    font-size: 18px;
+    text-align: justify;
+    font-size: 20px;
     width: 70%;
     margin: 10px auto 20px auto;
     color: rgba(0,0,0,.6);
 }
+
+/* LEGENDA DAS IMAGENS */
+
+.container main h4{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+/* config das imagens */ 
 
 .container main img {
     display: block;
@@ -125,9 +147,6 @@ body {
     border-radius: 20px;
 }
 
-#cont2 {
-    visibility: hidden;
-}
 
 /* footer */
 
