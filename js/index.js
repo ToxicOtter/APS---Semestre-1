@@ -51,3 +51,7 @@ function sumiu(integrante){
         luisLista.style.color = "blue";
     }
 }
+
+function toTheTop(){
+    document.documentElement.scrollTop = 0;
+}

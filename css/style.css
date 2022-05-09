@@ -160,6 +160,9 @@ body {
     text-align: center;
 }
 
+.container footer a {
+    cursor: pointer;
+}
 
 /* about us */
 #Isaac {
