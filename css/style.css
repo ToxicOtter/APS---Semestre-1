@@ -72,12 +72,11 @@ body {
     color: white;
 }
 
-/* aside */
 .container h2{
     text-align: center;
-    cursor: pointer;
 }
 
+/* aside */
 .container aside {
     grid-area: aside;
     background-color: rgba(118, 215, 196, .3);
@@ -88,6 +87,10 @@ body {
     height: 100vh;
     width: 250px;
     margin-left: 0;
+}
+
+.container aside h2 {
+    cursor: pointer;
 }
 
 .container aside nav {

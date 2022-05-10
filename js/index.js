@@ -15,12 +15,15 @@ const luisLista = document.getElementById("luisLista");
 const navbar = document.getElementById("navbar");
 
 //content constants
-const one = document.getElementById("cont1");
-const two = document.getElementById("cont2");
-const three = document.getElementById("cont3");
-const four = document.getElementById("cont4");
+const contentOne = document.getElementById("cont1");
+const contentTwo = document.getElementById("cont2");
+const contentThree = document.getElementById("cont3");
+const contentFour = document.getElementById("cont4");
 
 const navList1 = document.getElementById("navList1");
+const navList2 = document.getElementById("navList2");
+const navList3 = document.getElementById("navList3");
+const navList4 = document.getElementById("navList4");
 
 //function to swwitch between the members 
 //add Natan e Matheus 
@@ -83,22 +86,27 @@ window.addEventListener('scroll', (e)=>{
     }else {
         navbar.classList.remove("follow");
     }
-    if(four.getBoundingClientRect().bottom <= window.innerHeight && four.getBoundingClientRect().top >= 0){
+
+    if(contentOne.getBoundingClientRect().top <= window.innerHeight && contentOne.getBoundingClientRect().bottom >=0){
         navList1.style.color = "red"
     }else {
         navList1.style.color = "black";
     }
-    /*if(window.scrollY >= four.getBoundingClientRect().y && window.scrollY <= (four.getBoundingClientRect().y + four.getBoundingClientRect().height)){
-        navList1.style.color = "red";
-        console.log("w " + window.scrollY);
-        console.log("y1 " + four.getBoundingClientRect().y)
-        console.log(four.getBoundingClientRect())
+    if(contentTwo.getBoundingClientRect().top <= window.innerHeight && contentOne.getBoundingClientRect().bottom >=0){
+        navList2.style.color = "red"
     }else {
-        navList1.style.color = "black";
-        console.log("w " + window.scrollY);
-        console.log("y1 " + four.getBoundingClientRect().y)
-        console.log(Number(four.getBoundingClientRect().y) + Number(four.getBoundingClientRect().height))
-    }*/
+        navList2.style.color = "black";
+    }
+    if(contentThree.getBoundingClientRect().top <= window.innerHeight && contentOne.getBoundingClientRect().bottom >=0){
+        navList3.style.color = "red"
+    }else {
+        navList3.style.color = "black";
+    }
+    if(contentFour.getBoundingClientRect().top <= window.innerHeight && contentOne.getBoundingClientRect().bottom >=0){
+        navList4.style.color = "red"
+    }else {
+        navList4.style.color = "black";
+    }
 })
 
 //https://awik.io/check-if-element-is-inside-viewport-with-javascript/
