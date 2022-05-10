@@ -73,14 +73,21 @@ body {
 }
 
 /* aside */
-
 .container h2{
     text-align: center;
+    cursor: pointer;
 }
 
 .container aside {
     grid-area: aside;
     background-color: rgba(118, 215, 196, .3);
+}
+
+.follow {
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    margin-left: 0;
 }
 
 .container aside nav {
