@@ -1,0 +1,74 @@
+.userProfile {
+    background-color: gray;
+    display: grid;
+    grid-template-areas: 
+    "img title"
+    "img desc"
+    "img links";
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+}
+
+.userProfile img {
+    grid-area: img;
+    width: 400px;
+}
+
+.userProfile h2 {
+    grid-area: title;
+    text-align: left;
+}
+
+.userProfile p {
+    grid-area: desc;
+    text-align: left;
+}
+
+.userProfile div {
+    grid-area: links;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    display: block;
+    width: 50px;
+}
+
+.social-icons img{
+    width: 50px;
+}
+
+#Isaac {
+    position: absolute;
+    visibility: hidden;
+}
+
+#Pedro {
+    position: absolute;
+    visibility: hidden;
+}
+
+#Luan {
+    position: absolute;
+    visibility: hidden;
+}
+
+#Luis {
+    position: absolute;
+    visibility: hidden;
+}
+
+#Matheus {
+    position: absolute;
+    visibility: hidden;
+}
+
+#Natan {
+    position: absolute;
+    visibility: hidden;
+}
+
+.integrantes li {
+    cursor: pointer;
+}

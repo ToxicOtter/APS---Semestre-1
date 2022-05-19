@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informações</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/aboutUs.css">
 </head>
+
 <body>
-<div class="container"> 
-    <header>
-        <div>
-            <img src="./img/planeta3.png" alt="Logo">
-            <h1>Site</h1>
-        </div>
-        <a href="index.html">Home</a>
-    </header>
+    <div class="container">
+        <header>
+            <div>
+                <img src="./img/planet.png" alt="Logo">
+                <h1>Sobre nós</h1>
+            </div>
+            <a href="index.html">Home</a>
+        </header>
 
-    <aside>
-        <nav>
-            <h2>Integrantes</h2>
-            <ul class="integrantes">
-                <li><a id="isaacLista" onclick="sumiu('Isaac')">ISAAC</a></li>
-                <li><a id="pedroLista" onclick="sumiu('Pedro')">PEDRO</a></li>
-                <li><a id="luanLista" onclick="sumiu('Luan')">LUAN</a></li>
-                <li><a id="luisLista" onclick="sumiu('Luis')">LUIS</a></li>
+        <aside>
+            <nav>
+                <h2>Integrantes</h2>
+                <ul class="integrantes">
+                    <li><a id="isaacLista" onclick="sumiu('Isaac')">ISAAC</a></li>
+                    <li><a id="pedroLista" onclick="sumiu('Pedro')">PEDRO</a></li>
+                    <li><a id="luanLista" onclick="sumiu('Luan')">LUAN</a></li>
+                    <li><a id="luisLista" onclick="sumiu('Luis')">LUIS</a></li>
+                    <li><a id="matheusLista" onclick="sumiu('Matheus')">MATHEUS</a></li>
+                    <li><a id="natanLista" onclick="sumiu('Natan')">NATAN</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-            </ul>
-        </nav>
-    </aside>
-
-    <main>
-        <p id="Isaac">Isaac</p>
-        <p id="Pedro">Pedro</p>
-        <p id="Luan">Luan</p>
-        <p id="Luis">Luis</p>
-    </main>
-
-
-    <footer>
-        <p>Copyright &copy</p>
-    </footer>
-
-</div>
-
-
+        <main>
+            <div class="userProfile">
+                <img src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="user profile picture">
+                <h2>Nome do fulano</h2>
+                <p>descrição</p>
+                <div>
+                    <a class="social-icons" href="#"><img src="./img/github.png" alt="Github"></a>
+                    <a class="social-icons" href="#"><img src="./img/linkedin.png" alt="Linkedin"></a>
+                </div>
+            </div>
+            <p id="Isaac">Isaac</p>
+            <p id="Pedro">Pedro</p>
+            <p id="Luan">Luan</p>
+            <p id="Luis">Luis</p>
+            <p id="Matheus">Matheus</p>
+            <p id="Natan">Natan</p>
+        </main>
 
 
+        <footer>
+            <p>Copyright &copy</p>
+        </footer>
 
-
-
+    </div>
     <script src="./js/index.js"></script>
 </body>
+
 </html>
