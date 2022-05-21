@@ -1,38 +1,57 @@
-.userProfile {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+#userProfile {
     background-color: gray;
     display: grid;
     grid-template-areas: 
     "img title"
     "img desc"
     "img links";
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 450px 1fr;
     justify-items: start;
+    background: linear-gradient(153deg, rgba(255,255,255,1) 59%, rgba(201,210,212,1) 100%);
+    border-radius: 10px;
+    visibility: hidden;
 }
 
-.userProfile img {
+#userProfile .profile-picture {
     grid-area: img;
+}
+
+.profile-picture img {
     width: 400px;
+    justify-self: start;
 }
 
-.userProfile h2 {
+#userProfile #title {
     grid-area: title;
-    text-align: left;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-.userProfile p {
+#userProfile #paragraph {
     grid-area: desc;
-    text-align: left;
+    text-align: center;
+    width: 100%;
+    display: block;
 }
 
-.userProfile div {
+#userProfile .links {
     grid-area: links;
+    width: 100%;
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .social-icons {
     display: block;
     width: 50px;
+    height: 50px;
 }
 
 .social-icons img{
