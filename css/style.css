@@ -175,3 +175,14 @@ body {
 .container footer a {
     cursor: pointer;
 }
+
+#back-to-top {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    visibility: hidden;
+}
+
+#back-to-top img {
+    width: 70px;
+}

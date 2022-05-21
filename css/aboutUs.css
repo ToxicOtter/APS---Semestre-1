@@ -58,36 +58,6 @@
     width: 50px;
 }
 
-#Isaac {
-    position: absolute;
-    visibility: hidden;
-}
-
-#Pedro {
-    position: absolute;
-    visibility: hidden;
-}
-
-#Luan {
-    position: absolute;
-    visibility: hidden;
-}
-
-#Luis {
-    position: absolute;
-    visibility: hidden;
-}
-
-#Matheus {
-    position: absolute;
-    visibility: hidden;
-}
-
-#Natan {
-    position: absolute;
-    visibility: hidden;
-}
-
 .integrantes li {
     cursor: pointer;
 }

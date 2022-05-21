@@ -1,6 +1,9 @@
 //navbar path
 const navbar = document.getElementById("navbar");
 
+//arrow
+const arrow = document.getElementById("back-to-top");
+
 //members informations
 const membersInformations = {
     Isaac: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Isaac","","#","#"],
@@ -42,7 +45,9 @@ function toTheTop(){
 window.addEventListener('scroll', (e)=>{
     if(window.scrollY > 250){
         navbar.classList.add("follow");
+        arrow.style.visibility = "visible";
     }else {
         navbar.classList.remove("follow");
+        arrow.style.visibility = "hidden";
     }
 })
