@@ -133,7 +133,7 @@ body {
 
  /* config dos textos */ 
 
-.container main p {
+.container main p , .container main li{
     text-align: justify;
     font-size: 20px;
     width: 70%;
@@ -185,4 +185,13 @@ body {
 
 #back-to-top img {
     width: 70px;
+}
+
+/* spams */
+.highlight {
+    color: green;
+}
+
+.stronger{
+    font-weight: bold;
 }
