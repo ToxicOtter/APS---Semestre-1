@@ -6,12 +6,12 @@ const arrow = document.getElementById("back-to-top");
 
 //members informations
 const membersInformations = {
-    Isaac: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Isaac","","#","#"],
+    Isaac: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Isaac Kralik Passos Ribeiro","","#","#"],
     Luan: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Luan Lima Lopes","","https://github.com/ToxicOtter","https://www.linkedin.com/in/luan-lima-lopes-836672189/"],
-    Luis: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Luis","","#","#"],
-    Matheus: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Matheus","","#","#"],
-    Natan: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Natan","","#","#"],
-    Pedro: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Pedro","","#","#"]
+    Luis: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Luis Carlos dos Reis Pereira","","#","#"],
+    Matheus: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Matheus Gabriel Germano dos Santos","","#","#"],
+    Natan: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Natan Moraes dos Santos","","#","#"],
+    Pedro: ["https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png","Pedro Henrique Maia de Medeiro","","#","#"]
 };
 
 //members card paths
