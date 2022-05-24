@@ -61,3 +61,16 @@
 .integrantes li {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    #userProfile{
+        grid-template-areas: 
+        "img"
+        "title"
+        "links";
+        grid-template-columns: 300px;
+    }
+    .profile-picture img{
+        width: 300px;
+    }
+}
